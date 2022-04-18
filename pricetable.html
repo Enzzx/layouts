@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    body {
+      margin: 0;
+    }
+    
+    div {
+      display: grid;
+      grid-template: 55% 45% / 45% 55%;
+      grid-template-areas:
+      "main main"
+      "price sideborder";
+    }
+    
+    .main {
+      grid-area: main;
+    }
+    
+    .price {
+      background-color: #45e3c6;
+      align-items: center;
+      color: white;
+      grid-area: price;
+    }
+    
+    .sideborder {
+      background-color: #11e1c1;
+      color: white;
+      grid-area: sideborder;
+    }
+    
+    h2 {
+      font-size: max(20px, 2.5vw);
+    }
+    
+    h3, p {
+      font-size: max(15px, 1.5vw);
+    }
+    
+    h4, .fnaf {
+      font-size: max(11px, 1vw);
+    }
+    
+    h6 {
+      font-size: max(4px, 0.25vw);
+    }
+    
+    button {
+      margin: 8% 20% 10% 20%;
+      background-color: #40cf1a;
+      padding: 3vw;
+      border-radius: max(10px, 3vw);
+      font-size: max(12px, 2vw);
+    }
+    
+    </style>
+  </head>
+  <body>
+    <div>
+      <section class="main">
+        <h2 style=" margin: 8%; color: #4fd4a4;">Junte-se à nossa comunidade!</h2>
+        <h3 style="color: #1eb1ff; margin: 8%;">Passe-estreiante, no 1° mês você não paga nada</h3>
+        <p style="margin: 8%;">Neymar da Silva Santos Júnior, mais conhecido como Neymar ou Neymar Jr., é um futebolista brasileiro que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Brasileira. É considerado o principal futebolista brasileiro da atualidade e um dos melhores futebolistas do mundo</p>
+      </section>
+      <section class="price">
+        <h4 style=" margin: 10% 16% 5% 16%;">valor da inscrição mensal</h4>
+        <h2 style="margin: 5% 5% 5% 16%; display: inline;">R$59</h2>
+        <h6 style="display: inline; margin: 0;">*por mês</h6>
+        <br>
+        <br>
+        <p class="fnaf" style="margin: 5% 16% 5% 16%;">você obtem o plano completo por menos de R$1 por dia</p>
+        <button>comprar agora</button>
+      </section>
+      <section class="sideborder">
+        <h3 style="margin: 10% 16% 5% 16%;">porque nós?</h3>
+        <p class="fnaf" style="margin: 5% 8% 5% 16%;">Five Nights at Freddy's é uma franquia de mídia criada por Scott Cawthon. Após o lançamento do primeiro jogo, a série se tornou um sucesso mundial, e posteriormente, estendeu-se para vários jogos, livros, brinquedos e a uma futura adaptação para filme.</p>
+      </section>
